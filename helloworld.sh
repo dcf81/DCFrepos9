@@ -9,4 +9,6 @@ echo "I am working perfectly"
 
 # Main
 
-# End
+lshw -C cpu | grep -i product
+
+
