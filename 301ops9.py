@@ -2,10 +2,17 @@
 
 #Declare variables
 
-a = 10
-b = 9
+a = input("Please enter a number for a: ")
+b = input("Please enter a number for b: ")
 
-if b > a:
-    print("b is greater than a")
-else:
-    print("a is greated than b")
+if (a == b) :
+    print("A and b are equal.")
+
+elif (a != b) :
+    print("Does not equal.")
+    if (a < b) :
+        print("A is less than.")
+    elif (a > b) :
+        print("A is greater than.")
+
+# End
